@@ -1,0 +1,45 @@
+.sidebar-navigation__item {
+	margin: 8px 0;
+	margin: 0px 0px 0px 10px;
+	cursor: pointer;
+}
+
+.sidebar-navigation__item-headline {
+	padding: 5px 10px;
+	position: relative;
+	transition: 0.2s ease;
+	border-radius: 8px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.sidebar-navigation__item-headline_bold {
+	font-weight: 700;
+	position: relative;
+}
+
+.sidebar-navigation__item_active > .sidebar-navigation__item-headline {
+	background-color: rgba(255, 255, 255, 0.493);
+	transition: 0.2s ease;
+}
+
+.sidebar-navigation__item_active > .sidebar-navigation__item-headline_check::after {
+	content: url('/public/images/check-black.svg');
+	display: inline-block;
+}
+
+.sidebar-navigation__item-headline_check::after {
+	content: url('/public/images/check-white.svg');
+	display: inline-block;
+}
+
+.sidebar-navigation__item_active > .sidebar-navigation__item-headline_cross::after {
+	content: url('/public/images/cross-black.svg');
+	display: inline-block;
+}
+
+.sidebar-navigation__item-headline_cross::after {
+	content: url('/public/images/cross-white.svg');
+	display: inline-block;
+}

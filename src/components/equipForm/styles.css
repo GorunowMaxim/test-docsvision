@@ -1,0 +1,57 @@
+.item-card__form {
+	width: 90%;
+	height: 90%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.item-card__label {
+	margin: 5px 0;
+}
+
+.item-card__text {
+	text-align: center;
+}
+
+.item-card__input {
+	display: block;
+	width: 90%;
+	height: 35px;
+	margin: 0 auto;
+	border-radius: 12px;
+	padding: 5px 10px;
+	margin: 10px auto;
+	background: linear-gradient(135deg, rgba(255, 255, 255, 0.473), rgba(255, 255, 255, 0.308));
+	backdrop-filter: blur(10px);
+	-webkit-backdrop-filter: blur(10px);
+	border-radius: 30px;
+	border: 1px solid rgba(255, 255, 255, 0.18);
+	box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+	color: black;
+	font-weight: 700;
+}
+
+.item-card__input_small {
+	width: 80px;
+}
+
+.item-card__submit {
+	padding: 10px;
+	background-color: black;
+	border-radius: 12px;
+	cursor: pointer;
+    transition: 0.4s ease;
+}
+
+.item-card__submit:hover {
+	padding: 10px;
+	background-color: white;
+    color: black;
+    transition: 0.4s ease;
+	border-radius: 12px;
+	cursor: pointer;
+}
+
+

@@ -1,0 +1,18 @@
+.icon-wrapper {
+	position: absolute;
+	top: 5%;
+	right: 5%;
+	cursor: pointer;
+}
+
+.icon-wrapper__update {
+	position: absolute;
+	top: 10%;
+	right: 5%;
+	cursor: pointer;
+}
+
+.icon {
+	width: 24px;
+	height: 24px;
+}
