@@ -17,7 +17,7 @@ export const EquipForm = ({ onChange, onSubmit, inputsConfig }: EquipFormProps) 
 				const inputClassName =
 					inputData.type === 'number' ? 'item-card__input item-card__input_small' : 'item-card__input';
 				return (
-					<label className='item-card__label'>
+					<label key={key} className='item-card__label'>
 						<p className='item-card__text'>{inputData.headline}</p>
 						<input
 							onChange={onChange}
